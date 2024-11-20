@@ -1,0 +1,14 @@
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los inputs */
+    margin: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Hacer que los inputs ocupen todo el espacio disponible */
+  }
+  

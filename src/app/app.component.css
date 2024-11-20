@@ -1,0 +1,144 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90vw; /* Ajusta el ancho al 90% del viewport */
+  max-width: 700px; /* Ajusta el ancho máximo según tu preferencia */
+  aspect-ratio: 1.2 / 1; /* Ajusta la relación de aspecto para alargarlo */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #000;
+}
+
+/* ... (resto del código CSS) ... */
+
+
+/* ... (resto del código CSS) ... */
+
+/* ... (resto del código CSS) ... */
+
+  
+  /* Estilos para el modo oscuro (se aplicarán cuando la variable modoOscuro sea true) */
+  body.dark-mode .container {
+    background-color: #212529; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto blanco */
+  }
+  
+  /* Estilos para los botones (puedes personalizarlos según tus preferencias) */
+/* ... otros estilos ... */
+
+.botones-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; /* Alinea los botones a la izquierda */
+  margin-top: 20px; 
+  margin-bottom: 20px; /* Agrega un margen inferior para separar de los inputs */
+}
+
+
+.botones-container > div { /* Contenedor para los botones Aceptar/Cancelar y Primario/Secundario */
+  display: flex;
+  gap: 10px; /* Espacio entre los botones horizontales */
+  margin-bottom: 10px; /* Espacio inferior entre grupos de botones */
+}
+
+/* ... otros estilos ... */
+
+  
+  .btn {
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .primario { background-color: #007bff; }
+  .secundario { background-color: #6c757d; }
+  .aceptar { background-color: #28a745; }
+  .cancelar { background-color: #dc3545; }
+  .dark-mode { background-color: #343a40; }
+  
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .visualizador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef; /* Cambia en modo oscuro */
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .visualizador p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  h1 {
+    border-bottom: 3px solid #ccc; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    width: 100%; /* Agrega esta línea */
+  }
+  .inputs-container {
+    display: flex;
+    flex-direction: column; /* Apila los inputs verticalmente */
+    gap: 10px; /* Agrega un espacio de 10px entre los inputs */
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .correo-label { color: green; margin-bottom: 5px;}
+.contrasena-label { color: red; margin-bottom: 5px;}
+.texto-label { color: black; margin-bottom: 5px;}
+.inputs-container app-input-email,
+.inputs-container app-input-contrasena,
+.inputs-container app-input-texto {
+  margin-top: -10px; /* Agrega un margen superior negativo a las entradas */
+}
+  
+.container::before {
+  content: '';
+  position: absolute;
+  top: 70px; /* Ajusta la posición vertical desde la parte superior */
+  left: 25%; /* Ajusta la posición horizontal desde la izquierda */
+  transform: translateX(50%);
+  width: 3px; /* Grosor de la línea */
+  height: calc(85% - 70px); /* Ajusta la altura para que llegue hasta abajo */
+  background-color: silver; /* Color plateado */
+}
+body.dark-mode {
+  background-color: #343a40; /* Cambia el color de fondo a oscuro */
+  color: #f8f9fa; /* Cambia el color del texto a claro */
+}
+

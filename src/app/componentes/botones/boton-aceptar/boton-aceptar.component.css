@@ -1,0 +1,15 @@
+/* boton-aceptar.component.css */
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: none; /* Elimina la sombra anterior */
+    border-bottom: 3px solid #116407; /* Borde inferior para simular sombra */
+    border-right: 3px solid #116407;
+    background-color: greenyellow; /* Color de fondo para el botón Aceptar */
+    color: white; /* Color del texto para el botón Aceptar */
+  }
+  

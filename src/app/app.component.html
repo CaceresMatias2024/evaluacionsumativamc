@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>SUMATIVA</h1>
+
+  <div class="botones-container">
+    <div>  
+      <app-boton-aceptar (clicked)="onClick('aceptar')"></app-boton-aceptar>
+      <app-boton-cancelar (clicked)="onClick('cancelar')"></app-boton-cancelar>
+    </div>
+    <div>
+      <app-boton-primario (clicked)="onClick('primario')"></app-boton-primario>
+      <app-boton-secundario (clicked)="onClick('secundario')"></app-boton-secundario>
+    </div>
+    <app-boton-modo-oscuro (clicked)="toggleDarkMode()"></app-boton-modo-oscuro>
+
+  </div>
+
+  <div class="inputs-container">
+    <p class="correo-label">Correo</p> 
+    <app-input-email [(ngModel)]="formData.email" label="Email"></app-input-email>
+    <p class="contrasena-label">Contraseña</p>
+    <app-input-contrasena [(ngModel)]="formData.contrasena" label="Contraseña"></app-input-contrasena>
+    <p class="texto-label">Texto</p>
+    <app-input-texto [(ngModel)]="formData.text" label="Texto"></app-input-texto>
+  </div>
+  
+  
+  <app-visualizador [data]="formData"></app-visualizador>
+</div>

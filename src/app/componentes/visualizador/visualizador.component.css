@@ -1,0 +1,42 @@
+.visualizador {
+    text-align: left;
+    font-size: 1.2rem;
+    width: 90%;
+    color: #495057; /* Cambia a blanco en modo oscuro */
+  }
+  .visualizador p {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .visualizador-container {
+    margin-top: -350px;
+    text-align: left; /* Alinea el contenido del contenedor a la izquierda */
+    font-size: 1.2rem; /* Ajusta el tamaño de la fuente si es necesario */
+    width: 90%; /* Ajusta el ancho del contenedor si es necesario */
+    /* ... otros estilos ... */
+  }
+  
+  .derecha {
+    float: right;
+    clear: both;
+    margin-right: 50px; /* Mantén el margen derecho en 10px */
+    margin-top: 50px; /* Ajusta el margen superior para mover los textos hacia arriba */
+    line-height: 1.5; 
+
+  }/* ... otros estilos ... */
+
+.cuadrado {
+  width: 100px; /* Ajusta el ancho del cuadrado */
+  height: 100px; /* Ajusta la altura del cuadrado */
+  background-color: #d641ee; /* Ajusta el color de fondo del cuadrado */
+  float: right; /* Mueve el cuadrado a la derecha */
+  clear: both;  /* Evita que otros elementos floten alrededor del cuadrado */
+  margin-top: 50px; /* Ajusta el margen superior para moverlo hacia abajo */
+  margin-right: 30px;/* Ajusta el margen superior para separarlo del texto */
+  /* Puedes agregar más estilos aquí para personalizar el cuadrado */
+}
+
+  
+  
+  
+  

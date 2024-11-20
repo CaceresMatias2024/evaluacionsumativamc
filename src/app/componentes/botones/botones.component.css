@@ -1,0 +1,25 @@
+/* Agrega estilos básicos para los botones */
+.botones-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .primario { background-color: #007bff; }
+  .secundario { background-color: #6c757d; }
+  .aceptar { background-color: #28a745; }
+  .cancelar { background-color: #dc3545; }
+  .dark-mode { background-color: #343a40; }
+  

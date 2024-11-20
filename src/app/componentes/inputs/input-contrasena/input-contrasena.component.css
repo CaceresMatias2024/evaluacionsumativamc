@@ -1,0 +1,12 @@
+.input-group {
+  width: 250px; /* Ajusta el ancho según tu preferencia */
+  margin-bottom: 10px; /* Espacio entre los inputs */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px; /* Ajusta el padding vertical para la altura */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+}
